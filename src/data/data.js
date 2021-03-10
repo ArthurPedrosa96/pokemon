@@ -5,7 +5,7 @@
     try {
       let response = await fetch(url)
       let data = await response.json()
-      data.id =
+      
       pokemons.push(data)
     } catch (err) {
       console.error(err.mesage)
