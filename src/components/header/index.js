@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
 
-const Header = ()=> {
+const Header = (props)=> {
     return(
-        <header>Pokedex</header>
+        <header>Pokedex {props.pokemon}</header>
     );
 }
 
